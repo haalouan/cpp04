@@ -1,8 +1,8 @@
-SRCS = main.cpp Cat.cpp Dog.cpp Animal.cpp
+SRCS = main.cpp Cat.cpp Dog.cpp Animal.cpp WrongAnimal.cpp WrongCat.cpp
 NAME = Animal
 CC = c++ -Wall -Wextra -Werror -std=c++98
 OBJS = ${SRCS:.cpp=.o}
-HEADERS = Cat.hpp Dog.hpp Animal.hpp
+HEADERS = Cat.hpp Dog.hpp Animal.hpp WrongAnimal.hpp WrongCat.hpp
 
 all: $(NAME)
 
